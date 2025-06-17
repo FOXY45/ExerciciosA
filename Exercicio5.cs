@@ -12,7 +12,7 @@ namespace Exercicios
             y = int.Parse(Console.ReadLine()!);
 
             if (x > y)
-            // Coloca os numeros em ordem crescente
+            // Coloca os numeros em ordem crescente, AB
             {
                 z = x;
                 x = y;
