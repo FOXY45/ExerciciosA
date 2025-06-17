@@ -1,0 +1,23 @@
+using System;
+
+namespace Exercicios
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            int exercicioParaExecutar = 1;
+
+            switch (exercicioParaExecutar)
+            {
+                case 1:
+                    Exercicio1.Executar();
+                    break;
+                default:
+                    Console.WriteLine("Exercício não encontrado.");
+                    break;
+            }
+        }
+    }
+}
+
