@@ -6,22 +6,34 @@ namespace Exercicios
     {
         public static void Main(string[] args)
         {
-            Console.Write("Qual exercicio deseja Debugar: (1 a 5) ");
-            int exercicio = int.Parse(Console.ReadLine()!);
-            Console.WriteLine("");
+            int exercicio;
 
-            switch (exercicio)
+            while (true)
             {
-                case 1: Exercicio1.Executar(); break;
-                case 2: Exercicio2.Executar(); break;
-                case 3: Exercicio3.Executar(); break;
-                case 4: Exercicio4.Executar(); break;
-                case 5: Exercicio5.Executar(); break;
-                default:
-                    Console.WriteLine("Exercício não encontrado.");
-                    break;
+                Console.Write("Digite o número do exercício (1 a 6): ");
+
+                // Tenta converter a entrada em número e valida se está entre 1 e 6
+                if (int.TryParse(Console.ReadLine(), out exercicio) && exercicio >= 1 && exercicio <= 6)
+                {
+                    Console.WriteLine("");
+
+                    switch (exercicio)
+                    {
+                        case 1: Exercicio1.Executar(); break;
+                        case 2: Exercicio2.Executar(); break;
+                        case 3: Exercicio3.Executar(); break;
+                        case 4: Exercicio4.Executar(); break;
+                        case 5: Exercicio5.Executar(); break;
+                        case 6: Exercicio6.Executar(); break;
+                    }
+
+                    break; // encerra o loop após execução
+                }
+                else
+                {
+                    Console.WriteLine("Número inválido.\n");
+                }
             }
         }
     }
 }
-
