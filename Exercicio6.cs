@@ -1,6 +1,6 @@
 using System;
 using System.Globalization;
-//CRESCENTE OU DECRESCENTE??????
+//DIAGONAL E NEGATIVOS
 namespace Exercicios
 {
     public static class Exercicio6
