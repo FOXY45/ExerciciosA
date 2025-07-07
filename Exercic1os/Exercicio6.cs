@@ -1,7 +1,7 @@
 using System;
 using System.Globalization;
 //SOMA E MÉDIA DE NÚMEROS
-namespace Exercicios
+namespace Exercic1os
 {
     public static class Exercicio6
     {

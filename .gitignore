@@ -15,8 +15,12 @@ obj/
 *.cache
 *.log
 
+# VS Code
+.vscode/
+
 # Outros
 *.tmp
 *.bak
 *.swp
 *.DS_Store
+*~

@@ -1,6 +1,6 @@
 using System;
 
-namespace Exercicios
+namespace Exercic1os
 {
     public static class Exercicio5
     {

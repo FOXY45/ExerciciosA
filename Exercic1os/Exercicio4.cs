@@ -1,7 +1,7 @@
 using System;
 using System.Globalization;
 //CRESCENTE OU DECRESCENTE??????
-namespace Exercicios
+namespace Exercic1os
 {
     public static class Exercicio4
     {

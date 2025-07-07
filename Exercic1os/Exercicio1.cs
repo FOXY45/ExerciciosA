@@ -1,7 +1,7 @@
 using System;
 using System.Globalization;
 //EXERCICIO SOBRE MATRIZES
-namespace Exercicios
+namespace Exercic1os
 {
     public static class Exercicio1
     {

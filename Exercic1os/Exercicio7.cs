@@ -1,7 +1,7 @@
 using System;
 using System.Globalization;
 //DIAGONAL E NEGATIVOS
-namespace Exercicios
+namespace Exercic1os
 {
     public static class Exercicio7
     {
