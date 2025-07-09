@@ -4,4 +4,8 @@ Alguns pontos que devo estudar Aprofundar  sobre C# no geral:
 
 2. Math.Sqrt = Dedicado para calculos de raiz quadrada
 
-3. x  .Split = pega dados digitados em Cosole.ReadLine(ex: batata, pao, abelha) e os separa, podendo ser colocado em um 'string[] vet' ou seja uma matriz ou vetor
+3. x  .Split(' ') = pega dados digitados em Cosole.ReadLine(ex: batata, pao, abelha) e os separa, podendo ser colocado em um 'string[] vet' ou seja uma matriz ou vetor
+
+4. x.Parse(Console.ReadLine()!) = força o recebimento de um dado (nao string) tornar-se legivel pelo comando Console.ReadLine()
+
+5. .ToString = ...

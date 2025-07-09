@@ -23,7 +23,7 @@ namespace Exercic1os
             for (int i = x + 1; i < y; i++)
             {
                 if (i % 2 != 0)
-                // Soma os números pares entre x e y
+                // Soma os números impares no intervalo de x e y
                 {
                     s = s + i;
                 }
