@@ -33,7 +33,7 @@ namespace Exercic1os
             {
                 mr = y;
             }
-            Console.WriteLine("MENOE ENTRE OS 3 = " + mr);
+            Console.WriteLine("MENOR ENTRE OS 3 = " + mr);
         }
     }
 }

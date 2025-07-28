@@ -10,14 +10,14 @@ namespace Exercicios
             int exercicio;
              while (true)
             {
-                Console.Write("Digite o número do exercício (1 a 7): ");
-                if (int.TryParse(Console.ReadLine(), out exercicio) && exercicio >= 1 && exercicio <= 7)
+                Console.Write("Digite o número do exercício (1 a 8): ");
+                if (int.TryParse(Console.ReadLine(), out exercicio) && exercicio >= 1 && exercicio <= 8)
                 {
                     Console.WriteLine("");
                     break; // sai do while se o número for válido
                 }
 
-                Console.WriteLine("Entrada inválida. Por favor, digite um número de 1 a 7.\n");
+                Console.WriteLine("Entrada inválida. Por favor, digite um número de 1 a 8.\n");
             }
 
             switch (exercicio)
@@ -29,6 +29,7 @@ namespace Exercicios
                 case 5: Exercicio5.Executar(); break;
                 case 6: Exercicio6.Executar(); break;
                 case 7: Exercicio7.Executar(); break;
+                case 8: Exercicio8.Executar(); break;
                 default:
                     Console.WriteLine("Exercício ainda não implementado.");
                     break;
